@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ecommerce Frontend</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #007acc;
+      color: white;
+      padding: 20px;
+    }
+    h1 {
+      margin: 0;
+    }
+    main {
+      padding: 40px;
+    }
+    .card {
+      background: white;
+      display: inline-block;
+      padding: 20px;
+      margin: 10px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Ecommerce Frontend</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Hello from Frontend!</h2>
+      <p>This is a simple static HTML page served by Nginx in Kubernetes.</p>
+    </div>
+    <div class="card">
+      <h2>API Test</h2>
+      <p>Try calling <code>/api/hello</code> from the backend service.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ecommerce Project</p>
+  </footer>
+</body>
+</html>
